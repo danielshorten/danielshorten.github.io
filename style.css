@@ -1,0 +1,130 @@
+@media print {
+  body {
+	  margin-top: 5em;
+	  zoom: 75%;
+  }
+}
+
+.container {
+	max-width: 50em;
+	margin: 0 auto 0 auto;
+}
+
+/* TEXT */
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	font-size: 36pt;
+	margin-bottom: 0;
+}
+h2 {
+	font-size: 22pt;
+	margin-bottom: 0;
+}
+h3 {
+	font-size: 14pt;
+	margin-top: .3em;
+	margin-bottom: .3em;
+}
+
+h4 {
+	font-size: 13pt;
+	margin-top: .3em;
+	margin-bottom: .3em;
+}
+
+h5 {
+	font-size: 11pt;
+	margin-top: .3em;
+	margin-bottom: .3em;
+}
+
+p, ul {
+	line-height: 1.3em;
+	font-size: 12pt;
+	font-weight: 100;
+}
+
+.no-decoration {
+	text-decoration: none;
+}
+
+.text-black {
+	color: #000000;
+}
+
+/* Margin utils */
+.mx-0 {
+	margin-left: 0;
+	margin-right: 0;
+}
+.mr-1 {
+	margin-right: .5em;
+}
+.mr-2 {
+	margin-right: 1em;
+}
+.mb-2 {
+	margin-bottom: 1em;
+}
+
+.light {
+	color: #999999;
+}
+
+.med-grey {
+	color: #555555;
+}
+
+.weight-light {
+	font-weight: lighter;
+}
+
+.color {
+	color: #3f4c92;
+}
+
+.float-right {
+	float: right;
+}
+
+.x-margin {
+	margin-left: .3em;
+	margin-right: .3em;
+}
+
+.d-inline {
+	display: inline;
+}
+
+.list-inline {
+	margin-top: 0;
+	padding-inline-start: 20px;
+}
+.list-inline li {
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.list-inline li:before {
+  content: '\00a0\2022\00a0\00a0';
+  padding-right: 0.5em;
+  color: #999999;
+  font-size:14px;
+}
+
+.underline {
+	line-height: .8em;
+	border-bottom: 3pt #ccc solid;
+}
